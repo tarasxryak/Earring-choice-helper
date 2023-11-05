@@ -1,3 +1,4 @@
+#import block
 from tkinter import *
 from tkinter import Tk
 from tkinter import ttk
@@ -7,9 +8,11 @@ from collections import Counter
 import os
 
 
+#const block
 app = Tk()
 enabled = IntVar()
 enabled2 = IntVar()
+
 
 # Earrings list
 nabor_seryog = [
@@ -41,6 +44,7 @@ def rand_sergya():
         return
 
 
+#krasota
 def create_entry():
     if enabled.get() == 1:
         entry_field.place(x=0, y=20)
